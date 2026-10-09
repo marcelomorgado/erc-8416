@@ -1,0 +1,20 @@
+{
+  "name": "erc-8416",
+  "version": "0.1.0",
+  "description": "Reference implementation of ERC-8416: Epoch-Based Fixed-Rate Vault",
+  "private": true,
+  "license": "CC0-1.0",
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test -vv",
+    "fmt": "prettier --write 'src/**/*.sol' 'test/**/*.sol'",
+    "fmt:check": "prettier --check 'src/**/*.sol' 'test/**/*.sol'",
+    "coverage": "forge coverage --report summary --no-match-coverage 'test/'"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "5.6.1",
+    "forge-std": "github:foundry-rs/forge-std#v1.17.0",
+    "prettier": "3.9.9",
+    "prettier-plugin-solidity": "2.4.1"
+  }
+}
